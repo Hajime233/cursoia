@@ -1,0 +1,508 @@
+*{
+    box-sizing: 0;
+    border: 0em;
+    position: relative;
+    min-width: 0;
+
+}
+body {
+
+    background-color: rgb(10, 10, 10);
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-wrap: balance;
+}
+p{
+    text-wrap: pretty;
+}
+
+#Header{
+    font-size: 2rem;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+
+
+
+}
+
+.item{
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    color:rgb(245, 247, 244);
+  
+    
+}
+/**-------articles------**/
+
+
+
+.artitle{
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(226, 43, 43);
+    border: 1px solid yellow;
+    font-family: sans-serif;
+    color: rgb(211, 208, 21);
+}
+
+
+.af{
+    margin-top: .7rem;
+    color: rgb(241, 245, 248);
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.second{
+    color: aqua;
+    text-align: center;
+    margin-top: 1.6rem;
+    font-size: 3rem;
+}
+
+.items{
+    text-align: center;
+    color: rgb(245, 211, 22);
+    font-size: 1.6rem;
+    margin: 1rem;
+
+    
+}
+#libre{
+    color: greenyellow;
+}
+/*------video y descripcion-----**/
+
+.clase{
+    color: white;
+    background-color: brown;
+    border: 1px solid gold;
+    text-align: center;
+    font-size: 2rem;
+    
+
+}
+.tv{
+    font-size: 1.5rem;
+    
+
+}
+#dd{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 175, 241);
+    
+    
+
+    
+}
+.des{
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-items: center;
+    color: aliceblue;
+}
+/**-----Modulos--**/
+#titulo2{
+    color: aqua;
+}
+.description{
+    
+    display: inline-flex;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(11, 224, 65);
+    
+   
+}
+.itemd{
+    margin-top: 1.2%;
+    height: 5.5rem;
+
+}
+/**---Boton1 compra--**/
+#compra1{
+    border: 3px solid red;
+    font-size: 2rem;
+    font-family: sans-serif;
+    border-radius: 50px;
+}
+
+/**----Temario---**/
+.temario{
+    margin-top: 2rem;
+    background-color: blue;
+    display: inline-flex;
+    justify-content: center;
+    
+}
+.temario h2{
+    color: aliceblue;
+    display: flex;
+    font-size: 3rem;
+   
+
+}
+
+.mod{
+    
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+
+
+}
+
+.square{
+    margin-top: 2rem;
+    font-size: 1.2rem; 
+    color: #e01212;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    line-height: 25px;
+    flex-direction: column;
+    margin-right: .5rem;
+     
+}
+/**-----Beneficios---**/
+.material{
+    border: 4px solid gold;
+    background-color: rgb(54, 54, 172);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.material h2{
+    color: rgb(255, 255, 254);
+    display:inline-flex;
+    flex-direction: column;
+    
+    
+}
+.ayuda{
+    font-size: 1.6rem;
+    margin-top: 10px;
+    display: flex;
+    text-align: left;
+    flex-direction: column; 
+    color: white;
+}
+/**-----Segundo llamado a compra--**/
+.pack{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}    
+    
+
+#of{
+    background-color: #e01212;
+    border: 2px solid gold;
+    color: rgb(210, 247, 5);
+    display: flex;
+    justify-content:center;
+}
+/**---llamado a compra2--**/
+.compra2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#card1{
+    margin-top: 1rem;
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+    max-width: 80rem;
+}
+#textocard{
+    margin-top: 8%;
+}
+#pre{
+    margin-top: 1rem;
+}
+#compra2{
+    border: 3px solid red;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    border-radius: 30px;
+}
+/**---bonos y certificado--**/
+
+.bonos{
+    margin-top: 2rem;
+    background-color: #e9c10e;
+    border: 2px solid rgb(92, 92, 89);
+    color: rgb(26, 26, 8);
+    display: flex;
+    justify-content:center;
+    font-size: 3rem;
+    
+}
+.bonosC{
+    display: flex;
+    justify-content:space-around;
+
+}
+#Certificado{
+   font-size: 1rem;
+}
+#b1{
+    font-size: 1rem;
+}
+#b2{
+    font-size: 1rem;
+}
+/**---llamada final compra---**/
+.lf{
+    color: #dbf307;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: #e01212;
+
+}
+.TC3{
+    font-size: 2rem;
+}
+
+.TC4{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.precio{
+    color: rgb(233, 211, 10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#f{
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+#prk{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+#prr{
+    border:  3px  solid red;
+    margin-top: 3rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.ofert{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    a
+    
+}
+#off{
+    margin-top: 2rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**----Testimonios---*/
+.opin{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: rgb(11, 161, 111);
+    border:3px solid #dbf307;
+}
+#opin{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+.testimonios{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.testi{
+    margin-top: 2rem;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#test1{
+    max-width: 30rem;
+}
+#test2{
+    max-width: 30rem;
+}
+
+#test4{
+   margin-left: 1rem;
+}
+/**------garantia--**/
+
+.ga{
+    background-color: #f5c906;
+    margin-top: 3rem;
+    color: rgb(17, 14, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comp{
+    font-size: 3rem;
+}
+.ccc{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.gara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ran{
+    margin-top: 2rem;
+    color: wheat;
+    max-width: 70rem;
+    display: flex;
+    justify-content: center;
+    text-align: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+}
+/**-----hotmart---**/
+.ss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.tx {
+    font-size: 1.8rem;    
+    color: white;
+    display: flex;
+    margin-top: 2rem;
+    max-width: 70rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotm{
+    margin-top: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hot{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#hot{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50rem;
+}
+#mt{
+    max-height: 15rem;
+}
+/**---usuario*/
+
+.usu{
+    margin-top: 4rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.ag{
+    border: #e01212 3px solid;
+    color: white;
+    font-size: 2rem;
+    max-width: 65rem;
+}
+
+#at{
+    font-size: 2rem;
+    color: #dbf307;
+}
+
+.ol{
+    color: #ddf508;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+ 
+}
+
+.oli{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+    font-size: 1.5rem;
+} 
+/**--footer--*/
+.cierre{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    height: 8rem;
+    background-color:  rgba(12, 6, 68, 0.432);
+}
