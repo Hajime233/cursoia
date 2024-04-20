@@ -235,6 +235,9 @@ p{
     color: rgb(210, 247, 5);
     display: flex;
     justify-content:center;
+    align-items: center;
+    font-size: 3rem;
+    height: 6rem;
 }
 /**---llamado a compra2--**/
 .compra2{
