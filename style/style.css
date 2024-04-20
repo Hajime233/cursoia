@@ -227,6 +227,16 @@ p{
     align-items: center;
     
 }    
+.lala{
+    display: flex;
+    justify-content: center;
+    border: #e01212 2px solid;
+    background-color: #e01212;
+    align-items: center;
+    margin: 2px;
+    
+}  
+    
     
 
 #of{
@@ -236,7 +246,7 @@ p{
     display: flex;
     justify-content:center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     height: 6rem;
 }
 /**---llamado a compra2--**/
