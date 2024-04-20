@@ -52,9 +52,9 @@ p{
     font-size: 2rem;
     text-align: center;
     background-color: rgb(226, 43, 43);
-    border: 1px solid yellow;
+    border: 1px solid rgb(5, 5, 5);
     font-family: sans-serif;
-    color: rgb(211, 208, 21);
+    color: rgb(238, 230, 230);
 }
 
 
@@ -111,11 +111,17 @@ p{
 }
 .des{
     
-    display: flex;
+    display:inline-flex;
+    flex-wrap: wrap;
     text-align: center;
-    flex-direction: column;
-    justify-items: center;
+    justify-items:center;
     color: aliceblue;
+}
+.img1{
+    display: flex; 
+    flex-direction: column;
+    margin: .5rem;
+  
 }
 /**-----Modulos--**/
 #titulo2{
@@ -131,16 +137,23 @@ p{
    
 }
 .itemd{
-    margin-top: 1.2%;
-    height: 5.5rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: .5rem;
+    
+    
+
 
 }
 /**---Boton1 compra--**/
 #compra1{
     border: 3px solid red;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: sans-serif;
-    border-radius: 50px;
+    border-radius: 20px;
+    margin: 2.5rem;
 }
 
 /**----Temario---**/
