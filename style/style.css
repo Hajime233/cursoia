@@ -234,6 +234,7 @@ p{
     background-color: #e01212;
     align-items: center;
     margin: 2px;
+    height: 8rem;
     
 }  
     
@@ -247,7 +248,7 @@ p{
     justify-content:center;
     align-items: center;
     font-size: 2rem;
-    height: 8rem;
+  
 }
 /**---llamado a compra2--**/
 .compra2{
